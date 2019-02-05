@@ -21,7 +21,8 @@ assorted_words = ["two", "go", "industrious", "bop"]
 
 def long_planeteer_calls(array)
   array.each do |calls|
- if calls.length > 4
+ case
+ when calls.length > 4
    true
 else 
   false
