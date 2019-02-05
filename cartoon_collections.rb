@@ -22,7 +22,7 @@ assorted_words = ["two", "go", "industrious", "bop"]
 def long_planeteer_calls(calls)
  if calls.length >= 4
    true
- elsif calls.length <= 4 
+ elsif calls.length < 4 
   false
  end
  end
