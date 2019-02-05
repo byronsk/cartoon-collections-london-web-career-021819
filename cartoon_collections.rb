@@ -16,6 +16,8 @@ def summon_captain_planet(arr)
  end
 end
 
+short_words = ["puff", "go", "two"]
+
 def long_planeteer_calls(array)
   array.each do |calls|
  if calls.length > 4
