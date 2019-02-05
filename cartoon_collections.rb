@@ -24,7 +24,8 @@ def long_planeteer_calls(array)
  case
  when calls.length > 4
    true
-else 
+ end
+ end
   false
 end
 
