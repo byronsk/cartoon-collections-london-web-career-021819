@@ -26,7 +26,6 @@ def long_planeteer_calls(array)
 else
   false
   end
- end
 end
 
 
