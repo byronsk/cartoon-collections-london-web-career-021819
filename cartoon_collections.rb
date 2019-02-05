@@ -22,7 +22,7 @@ assorted_words = ["two", "go", "industrious", "bop"]
 def long_planeteer_calls(arra)
 arra.each do |calls|
   if calls.length > 4
-    return true
+   true
   end
 end
     false
