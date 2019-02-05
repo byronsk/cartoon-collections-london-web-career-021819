@@ -24,7 +24,7 @@ arra.each do |calls|
   if calls.length > 4
     return true
   end
-  else
+end
     false
   end
 end
