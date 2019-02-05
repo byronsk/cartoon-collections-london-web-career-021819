@@ -20,7 +20,7 @@ short_words = ["puff", "go", "two"]
 assorted_words = ["two", "go", "industrious", "bop"]
 
 def long_planeteer_calls(array)
-array.each { |i| case when then true  when i % 5 == 0 then puts "five" else puts i end }
+array.each { |i| case when i.length > 4 then true  else false end }
 
 
 
