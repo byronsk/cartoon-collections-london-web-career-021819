@@ -21,7 +21,7 @@ assorted_words = ["two", "go", "industrious", "bop"]
 
 def long_planeteer_calls(long)
   long.any? do |call|
-    call.length < 4
+    call.length > 4
  end
  end
 
