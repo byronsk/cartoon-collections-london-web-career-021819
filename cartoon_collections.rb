@@ -26,7 +26,7 @@ arra.each do |calls|
  else
     false
 end
-end
+
 
 def find_the_cheese(array)
  cheese_types = ["cheddar", "gouda", "camembert"]
