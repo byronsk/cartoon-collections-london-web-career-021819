@@ -19,9 +19,13 @@ end
 short_words = ["puff", "go", "two"]
 assorted_words = ["two", "go", "industrious", "bop"]
 
-def long_planeteer_calls(array)
-array.each { |i| case when i.length > 4 then true  else false 
-end}
+def long_planeteer_calls(arra)
+arra.each do |calls|
+  if calls.length > 4
+    return true
+  else
+    false
+  end
 
 
 def find_the_cheese(array)
