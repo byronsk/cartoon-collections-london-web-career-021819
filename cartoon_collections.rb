@@ -26,7 +26,6 @@ arra.each do |calls|
   end
 end
     false
-  end
 end
 
 
