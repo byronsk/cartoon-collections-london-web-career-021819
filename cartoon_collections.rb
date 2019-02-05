@@ -24,15 +24,8 @@ else
   false
   end
  end
-enddef long_planeteer_calls(array)
-  array.each do |calls|
- if calls.length > 4
-  return true
-else
-  false
-  end
- end
 end
+
 
 def find_the_cheese(array)
  cheese_types = ["cheddar", "gouda", "camembert"]
