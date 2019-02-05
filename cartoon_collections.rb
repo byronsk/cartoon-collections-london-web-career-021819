@@ -22,9 +22,9 @@ assorted_words = ["two", "go", "industrious", "bop"]
 def long_planeteer_calls(arra)
   arra.each do |words|
  if arra.length > 4
-   true
+  return true
  else arra.length < 4
-   false
+  return false
  end
 
 def find_the_cheese(array)
