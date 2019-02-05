@@ -19,12 +19,9 @@ end
 short_words = ["puff", "go", "two"]
 assorted_words = ["two", "go", "industrious", "bop"]
 
-def long_planeteer_calls(calls)
-  calls.each do |call|
- if call.length < 4
-   false
- elsif call.length >= 4 
-  true
+def long_planeteer_calls(long)
+  long.any? do |call|
+    call.length < 4
  end
  end
 
