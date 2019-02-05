@@ -20,7 +20,7 @@ short_words = ["puff", "go", "two"]
 assorted_words = ["two", "go", "industrious", "bop"]
 
 def long_planeteer_calls(arra)
- arra.find do |planet|
+ arra.any? do |planet|
  planet.length > 4
   end
  end
