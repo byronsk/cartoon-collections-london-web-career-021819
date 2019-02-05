@@ -22,11 +22,12 @@ assorted_words = ["two", "go", "industrious", "bop"]
 def long_planeteer_calls(arra)
  arra.find do |planet|
  planet.length > 4
+  end
  end
 
 def find_the_cheese(array)
  cheese_types = ["cheddar", "gouda", "camembert"]
 array.find do |cheese|
   cheese_types.include?(cheese)
- end
+  end
  end
