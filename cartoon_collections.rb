@@ -21,7 +21,6 @@ assorted_words = ["two", "go", "industrious", "bop"]
 
 def long_planeteer_calls(arra)
   if arra.length > 4 ? return true : false
-  end
 end
   
 
